@@ -5,8 +5,8 @@ import           Data.Foldable                 (foldr')
 import           Data.List                     (sort)
 import qualified Data.Map                      as M
 import           Data.Maybe                    (catMaybes, fromMaybe)
-import           Text.Regex.Applicative
-import           Text.Regex.Applicative.Common
+import           Text.Regex.Applicative        (RE, match, some, sym)
+import           Text.Regex.Applicative.Common (decimal)
 
 type Input = ([Int], [Int])
 
