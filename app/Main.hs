@@ -4,12 +4,14 @@ import qualified AOC2024D1 as D1
 import qualified AOC2024D2 as D2
 import qualified AOC2024D3 as D3
 import qualified AOC2024D4 as D4
+import qualified AOC2024D5 as D5
 
 getHandler :: String -> Maybe (IO (Int, Int))
 getHandler "1" = Just $ D1.solution
 getHandler "2" = Just $ D2.solution
 getHandler "3" = Just $ D3.solution
 getHandler "4" = Just $ D4.solution
+getHandler "5" = Just $ D5.solution
 getHandler _   = Nothing
 
 main :: IO ()
