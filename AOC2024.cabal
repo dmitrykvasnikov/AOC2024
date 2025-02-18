@@ -62,6 +62,7 @@ library
     exposed-modules:  AOC2024D1
                     , AOC2024D2
                     , AOC2024D3
+                    , AOC2024D4
 
     -- Modules included in this library but not exported.
     -- other-modules:
@@ -74,6 +75,8 @@ library
                     , regex-applicative
                     , containers
                     , split
+                    , array
+                    , transformers
 
     -- Directories containing source files.
     hs-source-dirs:   src
