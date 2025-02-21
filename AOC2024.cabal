@@ -79,6 +79,7 @@ library
                     , split
                     , array
                     , transformers
+                    , linear
 
     -- Directories containing source files.
     hs-source-dirs:   src
