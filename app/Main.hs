@@ -6,6 +6,7 @@ import qualified AOC2024D3 as D3
 import qualified AOC2024D4 as D4
 import qualified AOC2024D5 as D5
 import qualified AOC2024D6 as D6
+import           System.IO
 
 getHandler :: String -> Maybe (IO (Int, Int))
 getHandler "1" = Just $ D1.solution
@@ -18,6 +19,8 @@ getHandler _   = Nothing
 
 main :: IO ()
 main = do
+  hSetBuffering stdin NoBuffering
+  hSetBuffering stdout NoBuffering
   putStr "\nEnter day number (ENTER to leave): "
   day <- getLine
   case day of

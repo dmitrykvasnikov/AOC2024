@@ -7,7 +7,7 @@ type Input = String
 getInput :: IO Input
 getInput = do
   i <- readFile "./input/day"
-  pure "Not implemented yet"
+  pure undefined
 
 part1 :: Input -> Int
 part1 i = 0
