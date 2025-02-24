@@ -59,12 +59,14 @@ library
     import:           warnings
 
     -- Modules exported by the library.
-    exposed-modules:  AOC2024D1
+    exposed-modules:  AOC
+                    , AOC2024D1
                     , AOC2024D2
                     , AOC2024D3
                     , AOC2024D4
                     , AOC2024D5
                     , AOC2024D6
+                    , AOC2024D7
 
     -- Modules included in this library but not exported.
     -- other-modules:
