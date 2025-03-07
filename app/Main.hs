@@ -7,6 +7,8 @@ import qualified AOC2024D4 as D4
 import qualified AOC2024D5 as D5
 import qualified AOC2024D6 as D6
 import qualified AOC2024D7 as D7
+import qualified AOC2024D8 as D8
+import qualified AOC2024D9 as D9
 import           System.IO
 
 getHandler :: String -> Maybe (IO (Int, Int))
@@ -17,6 +19,8 @@ getHandler "4" = Just $ D4.solution
 getHandler "5" = Just $ D5.solution
 getHandler "6" = Just $ D6.solution
 getHandler "7" = Just $ D7.solution
+getHandler "8" = Just $ D8.solution
+getHandler "9" = Just $ D9.solution
 getHandler _   = Nothing
 
 main :: IO ()

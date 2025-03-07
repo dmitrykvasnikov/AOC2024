@@ -67,6 +67,8 @@ library
                     , AOC2024D5
                     , AOC2024D6
                     , AOC2024D7
+                    , AOC2024D8
+                    , AOC2024D9
 
     -- Modules included in this library but not exported.
     -- other-modules:
